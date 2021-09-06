@@ -3,7 +3,7 @@ import { FaCode } from 'react-icons/fa';
 
 export default function Navbar() {
     return (
-        <div style={{display: "flex", height: "60px"}}>
+        <div style={{display: "flex", height: "60px",}}>
             
             
 
@@ -21,7 +21,7 @@ export default function Navbar() {
                 
             </div>
 
-            <div style={{position: "relative", float: "right", marginLeft: "auto", border: "1px solid red"}}>
+            <div style={{position: "relative", float: "right", marginLeft: "auto",}}>
             
                 <ul style={{display: "flex", listStyleType: "none", justifyContent: "space-between",
             marginTop: "15px", fontFamily: "Segoe UI"}}>

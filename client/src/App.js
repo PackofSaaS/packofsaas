@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Tool from './components/Tool';
 import Navbar from './components/Navbar';
 import IntroSection from './components/IntroSection';
+import saasData from '../src/data/saasdata.json';
 
 
 function App() {
@@ -11,22 +12,34 @@ function App() {
       
 
       <Router>
-        
-      <div style={{border: "1px solid black", marginLeft: "12%", marginRight:"12%",}}>
+      
+      <div style={{backgroundImage: "linear-gradient(to right, #D0C3B8 , #C2946E)", 
+      opacity: "0.7",
+      borderBottom: "3px solid black"}}>
+      <div style={{ marginLeft: "12%", marginRight:"12%",}}>
         <Navbar/>
       </div>
-        
-      <div style={{border: "1px solid black", marginLeft: "12%", marginRight:"12%"}}>
+      </div>
+
+      <div style={{backgroundImage: "linear-gradient(to right, #D0C3B8 , #C2946E)",
+       paddingBottom: "50px", paddingTop: "10px",borderBottom: "3px solid black" }}> 
+      <div style={{ marginLeft: "12%", marginRight:"12%"}}>
         <IntroSection/>
       </div>
-        
-        <div style={{border: "1px solid black", marginLeft: "12%", marginRight:"12%", display: "flex", justifyContent:"space-between"}}>
-        <Tool/>
-        <Tool/>
-        <Tool/>
-        <Tool/>
-        </div>
-
+      </div>
+      
+      <div  style={{ marginTop: "-55px", paddingTop: "20px", }}> 
+      <div style={{ marginLeft: "12%", marginRight:"12%", marginTop: "3%",}}>   
+      {
+        saasData.map(sd => {
+          return (
+            <div style={{display : "inline-flex",}}><
+              Tool data={sd}/></div>
+          )
+        })
+      }
+      </div>
+      </div>
         
       
       

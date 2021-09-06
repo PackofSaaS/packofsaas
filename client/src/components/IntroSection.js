@@ -39,7 +39,7 @@ export default function IntroSection() {
 
 
     return (
-        <div style={{display: "flex", marginTop: "20px", marginBottom: "20px"}}>
+        <div style={{display: "flex", marginTop: "0px", marginBottom: "20px"}}>
             
 
             <div style={{width: "55%"}}>
@@ -49,9 +49,9 @@ export default function IntroSection() {
             <p className="introtextsub">It's easy and free to post your SaaS or article on it and connect with billions of others.</p>
             </div>
 
-            <div style={{border: "1px solid red"}}>
+            <div style={{ right: "12%", position: "absolute"}}>
             
-            <div >
+            <div style={{float: "right"}}>
                 <FaTwitter style={{color: "#00aced"}} size="30"/>
                 <FaFacebook style={{color: "#3b5998"}} size="30"/>
                 <FaInstagram size="30"/>
@@ -63,7 +63,10 @@ export default function IntroSection() {
                 <FaTelegram size="30"/>
             </div>
 
-            <div>
+                <br/>
+                <br/>
+
+            <div style={{position: "absolute", float: "right"}}>
               
                     <input type="email"
                     placeholder="Enter your Interest"
@@ -72,8 +75,9 @@ export default function IntroSection() {
 
                     <button onClick={handleSubmit}>Submit</button>
                
+                <br/>
 
-                Number of Registered Users : 219 and counting
+                <h1>219 members</h1>
                 
             </div>
 

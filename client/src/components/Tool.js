@@ -4,8 +4,10 @@ import {Link} from 'react-router-dom';
 import poscss from '../css/pos.css';
 import { FaCloud, FaHeart, FaEye, FaComment, FaPenAlt } from 'react-icons/fa';
 
+import saasData from '../data/saasdata.json';
 
-export default function Tool() {
+
+export default function Tool(props) {
    
     const [bgStyle, setBgStyle] = useState("card-tool")
 
@@ -16,6 +18,9 @@ export default function Tool() {
         setBgStyle("card-tool") 
     }
 
+    const {id, title, description, likes, views, comments, updated} = props.data
+
+    console.log("Data in local file is" +JSON.stringify(saasData))
 
     return (
         <>
@@ -27,7 +32,8 @@ export default function Tool() {
         <div 
         className={bgStyle}
         onMouseEnter={changeStyle}
-        onMouseLeave = {changeStyle2}>
+        onMouseLeave = {changeStyle2}
+        style={{marginLeft: "25px", marginRight: "25px"}}>
           
             
 
@@ -39,12 +45,12 @@ export default function Tool() {
 
             {/* Title */}
             <div>
-                <label className="tool-title">Flight Search</label>
+                <p className="tool-title">{title}</p>
             </div>
 
             {/* Description */}
             <div>
-                <p className="tool-desc">Your number 1 choice to search flights around the globe free of cost.</p>
+                <p className="tool-desc">{description}</p>
             </div>
 
             {/* Multipl Icons Data Points */}
@@ -55,29 +61,29 @@ export default function Tool() {
             
             <div className="small-icon">
             <FaHeart className="small-icon-sub"/>
-            <label className="small-icon-label">1.2k</label>
+            <label className="small-icon-label">{likes}</label>
             </div>
             
             <div className="small-icon">
             <FaEye className="small-icon-sub"/>
-            <label className="small-icon-label">2.4k</label>
+            <label className="small-icon-label">{views}</label>
             </div>
             
             <div className="small-icon">
             <FaComment  className="small-icon-sub"/>
-            <label className="small-icon-label">10k</label>
+            <label className="small-icon-label">{comments}</label>
             </div>
 
             <div className="small-icon">
             <FaPenAlt className="small-icon-sub"/>
-            <label className="small-icon-label">2h</label>
+            <label className="small-icon-label">{updated}</label>
             </div>
             
             
             </div>
 
             {/* Start */}
-            <Link to="/test" style={{textDecoration: "none", cursor: "pointer"}} >  
+            <Link to="/test" style={{textDecoration: "none", cursor: "pointer",}} >  
             <div className="button-style">
             
                <label className="button-label">Let's Go</label> 
