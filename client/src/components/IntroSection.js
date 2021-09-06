@@ -69,15 +69,18 @@ export default function IntroSection() {
             <div style={{position: "absolute", float: "right"}}>
               
                     <input type="email"
-                    placeholder="Enter your Interest"
+                    className="inputtext"
+                    placeholder="Enter your email"
                     value={email}
                     onChange={e => handleInputChange(e.target.value)}/>
 
-                    <button onClick={handleSubmit}>Submit</button>
+                    <button 
+                    className="btn-large"
+                    onClick={handleSubmit}>Submit</button>
                
                 <br/>
 
-                <h1>219 members</h1>
+                <h1 style={{textAlign: "center"}}>219 members</h1>
                 
             </div>
 
