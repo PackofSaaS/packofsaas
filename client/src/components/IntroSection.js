@@ -25,7 +25,7 @@ export default function IntroSection() {
 
         console.log("Object posted is " + JSON.stringify(obj)) 
 
-        axios.post('https://packofsaas.herokuapp.com:5000/email', obj)
+        axios.post('/email', obj)
         .then(response => {
           console.log(response.data)
         })
