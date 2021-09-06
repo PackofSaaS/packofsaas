@@ -5,6 +5,13 @@ const app = express();
 var cors = require('cors');
 app.use(cors());
 
+
+// For Deployment Part 1
+// ... other imports 
+const path = require("path")
+// ... other app.use middleware 
+app.use(express.static(path.join(__dirname, "client", "build")))
+
 const mongoose = require('mongoose');
 
 const bodyParser = require('body-parser');
@@ -23,7 +30,7 @@ app.use('/posts', postRoutes)
 
 app.use('/email', emailRoutes)
 
-const PORT = process.env.PORT || 8083;
+const PORT = process.env.PORT || 5000;
 
 // Middlewares
 // are functions which execute when routes are hit
@@ -42,5 +49,11 @@ app.get('/', (req, res) => {
 mongoose.connect(process.env.DB_CONNECTION, {useNewURLParser: true},()=>{
     console.log("Connected to database")
 })
+
+// For Deployment Part 2
+// Right before your app.listen(), add this:
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 app.listen(PORT);
