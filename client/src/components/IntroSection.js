@@ -25,7 +25,7 @@ export default function IntroSection() {
 
         console.log("Object posted is " + JSON.stringify(obj)) 
 
-        axios.post('http://localhost:8083/email', obj)
+        axios.post('http://localhost:8000/email', obj)
         .then(response => {
           console.log(response.data)
         })
