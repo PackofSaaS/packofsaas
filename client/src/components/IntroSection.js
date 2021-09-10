@@ -39,7 +39,7 @@ export default function IntroSection() {
 
 
     return (
-        <div style={{display: "flex", marginTop: "0px", marginBottom: "20px"}}>
+        <div style={{display: "flex", marginTop: "0px", marginBottom: "20px",}}>
             
 
             <div style={{width: "55%"}}>

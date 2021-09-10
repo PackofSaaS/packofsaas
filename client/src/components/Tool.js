@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import poscss from '../css/pos.css';
-import { FaCloud, FaHeart, FaEye, FaComment, FaPenAlt } from 'react-icons/fa';
+import { FaCloud, FaHeart, FaEye, FaComment, FaPenAlt, FaCertificate, FaMedal, FaFire } from 'react-icons/fa';
 
 import saasData from '../data/saasdata.json';
 
@@ -27,7 +27,12 @@ export default function Tool(props) {
 
         
         
-        
+    <Link to={{
+        pathname : "/details",
+        state : props.data
+    }}
+    
+    style={{textDecoration: "none", cursor: "pointer", }}>
         
         <div 
         className={bgStyle}
@@ -38,10 +43,22 @@ export default function Tool(props) {
             
 
             {/* Icon */}
-            <div className="too-icon">
+            <div className="too-icon" >
             {/* <i class="fas fa-cloud fa-2x"></i> */}
             <FaCloud size="fa-2x"/>
+
+           
             </div>
+
+            {
+                title == "Time Management" ? 
+                <div>
+                <FaFire style={{marginLeft: "190px", position: "absolute", marginTop : "-80px", color: "#e25822"}}/>
+                </div>
+                    :
+                    ""
+            }
+            
 
             {/* Title */}
             <div>
@@ -83,16 +100,18 @@ export default function Tool(props) {
             </div>
 
             {/* Start */}
-            <Link to="/test" style={{textDecoration: "none", cursor: "pointer",}} >  
+            
             <div className="button-style">
             
                <label className="button-label">Let's Go</label> 
             
             </div>
-            </Link>
+            
             
 
         </div>
+
+        </Link>
         
         </>
         

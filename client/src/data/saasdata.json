@@ -2,12 +2,14 @@
     {
         "id" : 1,
         "logo" : "",
-        "title" : "Pomodoro Technique",
-        "description" : "You number 1 source of time management",
+        "title" : "Time Management",
+        "description" : "You number 1 tool for free time management",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "2"
 
     },
 
@@ -15,11 +17,13 @@
         "id" : 2,
         "logo" : "",
         "title" : "Flight Search",
-        "description" : "You number 1 source of flight search",
+        "description" : "You number 1 tool of free flight search",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Peter",
+        "time" : "3"
 
     },
 
@@ -27,11 +31,13 @@
         "id" : 3,
         "logo" : "",
         "title" : "Hashtag Generator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for generating free hashtags",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Carey",
+        "time" : "1"
 
     },
 
@@ -39,11 +45,13 @@
         "id" : 4,
         "logo" : "",
         "title" : "Send Free SMS",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for sending free sms",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Willis",
+        "time" : "5"
 
     },
 
@@ -51,11 +59,13 @@
         "id" : 5,
         "logo" : "",
         "title" : "Free Calls",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for free calls",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Tariq",
+        "time" : "10"
 
     },
 
@@ -63,11 +73,13 @@
         "id" : 6,
         "logo" : "",
         "title" : "Article Generator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for generating free articles",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Wali",
+        "time" : "5"
 
     },
 
@@ -75,11 +87,13 @@
         "id" : 7,
         "logo" : "",
         "title" : "Image to Text",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for coverting images to text for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Mohsin",
+        "time" : "7"
 
     },
 
@@ -87,11 +101,13 @@
         "id" : 8,
         "logo" : "",
         "title" : "How To Pronounce",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to learn for free how to pronounce",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Joseph",
+        "time" : "5"
 
     },
 
@@ -99,11 +115,13 @@
         "id" : 9,
         "logo" : "",
         "title" : "Tax Calculator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for free tax calculation",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Noll",
+        "time" : "4"
 
     },
 
@@ -111,11 +129,13 @@
         "id" : 10,
         "logo" : "",
         "title" : "URL Shortner",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to shorten URL's for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Joe",
+        "time" : "8"
 
     },
 
@@ -123,11 +143,13 @@
         "id" : 11,
         "logo" : "",
         "title" : "Send Bulk Email",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to send bulk emails for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Doe",
+        "time" : "1"
 
     },
 
@@ -135,11 +157,13 @@
         "id" : 12,
         "logo" : "",
         "title" : "Quiz Generator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to generate and share quizes for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Uils",
+        "time" : "1"
 
     },
 
@@ -147,11 +171,13 @@
         "id" : 13,
         "logo" : "",
         "title" : "Audio to Text",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to convert audio to text for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "John",
+        "time" : "15"
 
     },
 
@@ -159,11 +185,13 @@
         "id" : 14,
         "logo" : "",
         "title" : "Words Calculator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to calculate number of words in a file for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Kapoor",
+        "time" : "3"
 
     },
 
@@ -171,11 +199,13 @@
         "id" : 15,
         "logo" : "",
         "title" : "Grammar Check",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to check grammar for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Owais",
+        "time" : "9"
 
     },
 
@@ -183,11 +213,13 @@
         "id" : 16,
         "logo" : "",
         "title" : "Privacy Policy Generator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to generate privacy policy for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Roy",
+        "time" : "6"
 
     },
 
@@ -195,23 +227,27 @@
         "id" : 17,
         "logo" : "",
         "title" : "Random Jokes",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool for generating jokes for free and sharing",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Alvi",
+        "time" : "7"
 
     },
     
     {
         "id" : 18,
         "logo" : "",
-        "title" : "Article Generator",
-        "description" : "You number 1 source of time management",
+        "title" : "BMI Calculator",
+        "description" : "You number 1 tool to calculate BMI for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Victor",
+        "time" : "10"
 
     },
 
@@ -219,11 +255,13 @@
         "id" : 19,
         "logo" : "",
         "title" : "Card Creator",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to create cards and send to friends for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Boehm",
+        "time" : "5"
 
     },
 
@@ -231,22 +269,26 @@
         "id" : 20,
         "logo" : "",
         "title" : "Daily Horoscope",
-        "description" : "You number 1 source of time management",
+        "description" : "You number 1 tool to view your horoscope for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Sally",
+        "time" : "9"
 
     },
     {
         "id" : 21,
         "logo" : "",
         "title" : "What to Watch",
-        "description" : "You number 1 source to find a movie to watch",
+        "description" : "You number 1 tool to find a movie to watch",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Norman",
+        "time" : "1"
 
     },
 
@@ -254,11 +296,13 @@
         "id" : 22,
         "logo" : "",
         "title" : "Generate Gifs",
-        "description" : "You number 1 source to find a movie to watch",
+        "description" : "You number 1 tool to generate GIFs for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Harry",
+        "time" : "9"
 
     }
     ,
@@ -266,11 +310,13 @@
         "id" : 23,
         "logo" : "",
         "title" : "Daily Notes",
-        "description" : "You number 1 source to find a movie to watch",
+        "description" : "You number 1 tool to take daily notes for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Stephen",
+        "time" : "6"
 
     }
     ,
@@ -278,22 +324,26 @@
         "id" : 24,
         "logo" : "",
         "title" : "Stopwatch",
-        "description" : "You number 1 source to find a movie to watch",
+        "description" : "You number 1 stopwatch for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Covery",
+        "time" : "9"
 
     },
     {
         "id" : 25,
         "logo" : "",
         "title" : "Sound Recorder",
-        "description" : "You number 1 source to find a movie to watch",
+        "description" : "You number 1 tool to record sound and share for free",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
-        "updated" : "1h"
+        "updated" : "1h",
+        "author" : "Barry",
+        "time" : "17"
 
     }
 ]
