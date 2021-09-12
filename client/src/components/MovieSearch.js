@@ -18,7 +18,7 @@ export default function MovieSearch() {
     const searchMovies = async (value) => {
         console.log("Search string is" + value);
 
-        const url = `http://www.omdbapi.com/?s=${value}&apikey=c0dbdb9`;
+        const url = `https://www.omdbapi.com/?s=${value}&apikey=c0dbdb9`;
         
         if(value != null || value!= ""){
             try{
