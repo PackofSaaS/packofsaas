@@ -322,4 +322,17 @@
       
     }
 
+
+    .textinput{
+      width: 300px;
+      height: 40px;
+      
+    }
+
+    .textinput:hover{
+      width: 300px;
+      height: 40px;
+      background-color: #C2946E;
+    }
+
   

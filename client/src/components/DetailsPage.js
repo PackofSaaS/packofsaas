@@ -5,6 +5,7 @@ import {FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaSnapchat, FaSlack, FaDi
         
         useLocation
       } from "react-router-dom";
+import MovieSearch from './MovieSearch';
 import TimeManagement from './TimeManagement';
 
 export default function DetailsPage(props) {
@@ -60,13 +61,16 @@ export default function DetailsPage(props) {
             style={{ paddingTop: "20px",  marginLeft: "12%", marginRight: "22%", marginTop: "1%", border: "2px dashed  #C2946E", height: "250px", }}
             >  */}
 
-            <div className="rainbow"
+            <div 
+            style={{border: "5px dashed black", marginLeft: "12%", marginRight: "12%", overflowY: "auto"}}
            >
 
             
-            <div style={{marginLeft: "45%", marginRight: "35%", marginTop: "2%", textAlign: "center"}}>
+            <div style={{marginLeft: "45%", marginRight: "35%", marginTop: "2%", textAlign: "center",
+        }}>
             {
                 title == "Time Management" ? <TimeManagement/> :  
+                title == "Movies Search" ? <MovieSearch/> : 
                 <>
                 <FaSpinner size="130"/>
                 <h1>Coming Soon...</h1>

@@ -16,14 +16,14 @@
     {
         "id" : 2,
         "logo" : "",
-        "title" : "Flight Search",
-        "description" : "You number 1 tool of free flight search",
+        "title" : "Movies Search",
+        "description" : "You number 1 tool of free movie search",
         "likes" : "2.1k",
         "views" : "3.2k",
         "comments" : "20k",
         "updated" : "1h",
-        "author" : "Peter",
-        "time" : "3"
+        "author" : "PoS",
+        "time" : "0.5"
 
     },
 
@@ -345,5 +345,131 @@
         "author" : "Barry",
         "time" : "17"
 
+    },
+
+    {
+        "id" : 26,
+        "logo" : "",
+        "title" : "Order Food",
+        "description" : "You number 1 tool to order food for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "5"
+
+    },
+
+    {
+        "id" : 27,
+        "logo" : "",
+        "title" : "Book Summary",
+        "description" : "Your number 1 tool to write short summaries of books you have read",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "5"
+
+    },
+
+    {
+        "id" : 28,
+        "logo" : "",
+        "title" : "Weather App",
+        "description" : "Your number 1 tool to see weather of place free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "1"
+
+    },
+
+    {
+        "id" : 29,
+        "logo" : "",
+        "title" : "Obituary App",
+        "description" : "Your number 1 tool to write obituaries for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "1"
+
+    },
+
+    {
+        "id" : 30,
+        "logo" : "",
+        "title" : "Boredom Killer",
+        "description" : "Your number 1 tool to kill boredom for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "1"
+
+    },
+
+    {
+        "id" : 31,
+        "logo" : "",
+        "title" : "Do It Yourself DIY",
+        "description" : "Your number 1 tool to search for DIY's for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "1"
+
+    },
+
+    {
+        "id" : 32,
+        "logo" : "",
+        "title" : "Lyrics",
+        "description" : "Your number 1 tool to search for Lyrics for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "1"
+
+    },
+
+    {
+        "id" : 33,
+        "logo" : "",
+        "title" : "Currency Converter",
+        "description" : "Your number 1 tool to covert currency for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "2"
+
+    },
+    {
+        "id" : 34,
+        "logo" : "",
+        "title" : "Cricket World Cup 2021",
+        "description" : "Your number 1 tool to see cricket worldup scores for free",
+        "likes" : "2.1k",
+        "views" : "3.2k",
+        "comments" : "20k",
+        "updated" : "1h",
+        "author" : "PoS",
+        "time" : "2"
+
     }
+
 ]
